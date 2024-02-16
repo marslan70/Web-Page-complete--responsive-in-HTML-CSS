@@ -1,0 +1,128 @@
+
+@media (max-width: 767px) {
+    .logo {
+        margin-left: 10px;
+        height: 2rem;
+    }
+
+    .main-section {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .content {
+        font-size: large;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .image-main img {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .registration-form {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .form-container {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="number"] {
+        width: 100%;
+    }
+
+    .form-container button {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .statement-container {
+        margin-right: 0;
+    }
+
+    .statement {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .statement i {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .statement p {
+        margin-left: 0;
+    }
+
+    .image-data-section {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .data-container {
+        padding-left: 0;
+    }
+
+    .agenda h2,
+    .agenda p {
+        text-align: center;
+    }
+
+    .experience {
+        flex-direction: column;
+    }
+
+    .right-half img {
+        max-height: 300px;
+    }
+
+    .join button {
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+
+/* For screens between 768px and 1200px */
+@media (min-width: 768px) and (max-width: 1200px) {
+    .container {
+        padding: 15px;
+    }
+
+    .main-section {
+        padding: 40px;
+    }
+
+    .registration-form {
+        padding: 50px;
+    }
+
+    .statement-container {
+        margin-right: 100px;
+    }
+}
+
+/* For screens larger than 1200px */
+@media (min-width: 1200px) {
+    .container {
+        padding: 20px;
+    }
+
+    .main-section {
+        padding: 60px;
+    }
+
+    .registration-form {
+        padding: 70px;
+    }
+
+    .statement-container {
+        margin-right: 200px;
+    }
+}

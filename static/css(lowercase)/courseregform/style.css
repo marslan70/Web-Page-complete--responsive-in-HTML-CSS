@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo {
+    margin-left: 30px;
+    height: 3rem;
+}
+
+.navbar {
+    background-color: rgb(16, 168, 214);
+    color: white;
+    padding: 10px;
+    display: flex;
+    box-shadow: #333;
+
+}
+
+
+.main-section {
+    background-color: #f2f2f2;
+    padding: 50px;
+    display: flex;
+    margin-left: 20px;
+}
+
+.content {
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.image-main {
+    display: flex;
+    align-items: center;
+}
+
+.image-main img {
+    max-width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+
+.registration-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px;
+    /*margin-top: -200px;*/
+}
+
+.form-container {
+    max-width: 650px;
+    margin: 30px auto;
+    margin-left: 60px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+
+}
+
+input[type="name"],
+input[type="number"],
+input[type="email"],
+input[type="text"] {
+    width: 90%;
+    padding: 5px;
+    border: 1px solid #695d5d;
+    border-radius: 7px;
+}
+
+.form-container button {
+    display: block;
+    width: 25%;
+    padding: 7px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-left: 67%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.statement-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 200px;
+
+}
+
+.statement {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.statement i {
+    margin-right: 30px;
+}
+
+.statement p {
+    margin-left: 20px;
+    text-align: left;
+}
+
+h5 {
+    font-weight: 800;
+
+}
+
+
+.image-data-section {
+    background-color: #fff;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.image-container {
+    flex: 1;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.data-container {
+    flex: 1;
+    padding-left: 100px;
+}
+
+.data-container h2 {
+    font-weight: 900;
+    font-size: xx-large;
+    text-decoration-line: underline;
+    color: #333;
+}
+
+
+.agenda {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.agenda h2 {
+    font-weight: 900;
+    font-size: xx-large;
+    text-decoration-line: underline;
+    color: #333;
+    text-align: center;
+}
+
+.agenda p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+}
+
+
+.experience {
+    display: flex;
+}
+
+.Items {
+    flex: 1;
+    padding: 20px;
+}
+
+.right-half {
+    flex: 1;
+    padding: 20px;
+}
+
+.right-half img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    max-height: 500px;
+}
+
+.experience h1 {
+    font-weight: 900;
+    font-size: xx-large;
+    text-decoration-line: underline;
+    color: #333;
+}
+
+.Tick {
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.tick-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.tick-item img {
+    margin-right: 10px;
+}
+
+.image-tools img {
+    max-width: 100%;
+    height: 100%;
+
+}
+
+.join {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.join-text {
+    color: #333;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.join button {
+    display: block;
+    width: 17%;
+    padding: 14px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 42%;
+    font-weight: 950;
+
+}
+
+.join p {
+    color: rgb(255, 0, 255);
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+
+.footer {
+    background-color: rgb(39, 38, 38);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-i img {
+    height: 3rem;
+
+}
